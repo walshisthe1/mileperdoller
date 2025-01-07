@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Replace with your API key
-GOOGLE_MAPS_API_KEY = 'YOUR_API_KEY_HERE'
+GOOGLE_MAPS_API_KEY = 'AIzaSyC5zjEPJeC6vYHJl-tis7geeh7Y6bWCt6w'
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
 def get_gas_prices(latitude, longitude, fuel_type='regular'):
